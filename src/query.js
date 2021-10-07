@@ -1,7 +1,7 @@
-export default async function retrieveContent() {
-    const url = "https://baconipsum.com/api/?type=all-meat&paras=2&start-with-lorem=1";
+
+export default async function plat(){
+  const url2 = "https://api.gill-cote-bistro.fr/specials?_sort=id:asc";
   
-    const response = await fetch(url);
-    return response.json();
-  }
-  
+  const response2 = await fetch(url2);
+  return response2.json();
+}
